@@ -6,9 +6,9 @@ An youtube videos thumbnail downloader telegram bot.
 
 ```
 Made with Python3
-(C) @FayasNoushad
+(C) @ToxicDeeModderr
 Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/YouTube-Thumbnail-Downloader/blob/main/LICENSE
+License -> https://github.com/TeamBossBaby/YouTube-Thumbnail-Downloader/blob/main/LICENSE
 ```
 
 ---
@@ -20,7 +20,7 @@ License -> https://github.com/FayasNoushad/YouTube-Thumbnail-Downloader/blob/mai
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/YouTube-Thumbnail-Downloader/tree/main">
+  <a href="https://heroku.com/deploy?template=https://github.com/TeamBossBaby/YouTube-Thumbnail-Downloader/tree/main">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -32,7 +32,7 @@ License -> https://github.com/FayasNoushad/YouTube-Thumbnail-Downloader/blob/mai
 <br/>
 
 ```sh
-git clone https://github.com/FayasNoushad/YouTube-Thumbnail-Downloader/tree/main
+git clone https://github.com/TeamBossBaby/YouTube-Thumbnail-Downloader/tree/main
 cd YouTube-Thumbnail-Downloader
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -59,5 +59,5 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+- [Toxic Dee Modder](https://github.com/TeamBossBaby)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
