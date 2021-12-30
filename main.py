@@ -13,6 +13,7 @@ I am a simple youtube thumbnail downloader telegram bot.
 - I will send the thumbnail.
 
 Made by @ToxicDeeModderr
+<p align="center"><a href="https://t.me/DaisySupport_Official"><img src="https://te.legra.ph/file/4e337e6326ae644f49a37.jpg" width="400"></p>
 """
 
 BUTTONS = InlineKeyboardMarkup(
