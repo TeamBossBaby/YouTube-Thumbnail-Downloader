@@ -18,7 +18,7 @@ Made by @ToxicDeeModderr
 
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/TheBotsWorldChannel')
+        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/TheBotsWorldChannel')   
         ]]
     )
 REGEX = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
@@ -68,5 +68,33 @@ async def send_thumbnail(bot, update):
             disable_web_page_preview=True,
             reply_markup=BUTTONS
         )
+<b>
+Use /play <song name> or use /play as a reply to an audio file or youtube link.
 
+Use /yplay to play all the songs of a youtube playlist.
+
+You can also use <code>/splay song name</code> to play a song from Jio Saavn or <code>/splay -a album name</code> to play all the songs from a jiosaavn album or /cplay <channel username or channel id> to play music from a telegram channel.</b>
+
+**Common Commands**:
+
+**/play**  Reply to an audio file or YouTube link to play it or use /play <song name>.
+**/splay** Play music from Jio Saavn, Use /splay <song name> or <code>/splay -a album name</code> to play all the songs from that album.
+**/player**  Show current playing song.
+**/upload** Uploads current playing song as audio file.
+**/help** Show help for commands
+**/playlist** Shows the playlist.
+
+**Admin Commands**:
+**/skip** [n] ...  Skip current or n where n >= 2.
+**/cplay** Play music from a channel's music files.
+**/yplay** Play music from a youtube playlist.
+**/join**  Join voice chat.
+**/leave**  Leave current voice chat
+**/shuffle** Shuffle Playlist.
+**/vc**  Check which VC is joined.
+**/stop**  Stop playing.
+**/radio** Start Radio.
+**/stopradio** Stops Radio Stream.
+**/clearplaylist** Clear the playlist.
+**/export** Export current playlist
 Bot.run()
